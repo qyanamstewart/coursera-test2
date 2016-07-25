@@ -1,0 +1,40 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	background-color: 	#228B22
+
+}
+
+#header-nav {
+	background-color: #f6b319
+	border: 0;
+	border-radius: 0;
+}
+
+
+/* End Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+
+

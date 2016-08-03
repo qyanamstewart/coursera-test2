@@ -11,5 +11,22 @@ h3 {
 	position: relative;
 	align-self: right;
 
+}
+
+#red {
+	background-color: red;
+	
+}
+
+
+#blue {
+	background-color: blue;
+
+}
+
+
+
+#yellow {
+	background-color: yellow;
 
 }

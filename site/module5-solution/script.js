@@ -94,6 +94,8 @@ $ajaxUtils.sendGetRequest(
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
+  document.querySelector("main-content") 
+  .innerHTML = responseText;
 
   // Load home snippet page
   $ajaxUtils.sendGetRequest(

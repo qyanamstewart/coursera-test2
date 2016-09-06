@@ -85,6 +85,10 @@ $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   buildAndShowCategoriesHTML,
   // ***** <---- TODO: STEP 1: Substitute [...] ******
+  function (responseText) {
+    document.querySelector("#main-content")
+      .innerHTML = responseText;
+
   true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
